@@ -12,7 +12,7 @@ function getAllUsers(callback) {
 			callback(null, results);
 		}
 	});
-}
+};
 
 const passwordPepper = "SeCretPeppa4MySal+";
 function addUser(postData, callback) {
